@@ -1,0 +1,93 @@
+1. List three Linux Distributions.	>>>>	ubuntu , Kali , Redhat
+
+2. From the slides what is the man command used for    >>>>   view the documentation for commands . 
+
+3. What is the difference between rm and rmdir using man command  >>> 
+
+   NAME
+          rm - remove files or directories
+
+   SYNOPSIS
+          rm [OPTION]... [FILE]...
+
+
+
+	NAME
+	   rmdir - remove empty directories
+
+SYNOPSIS
+       rmdir [OPTION]... DIRECTORY...
+
+
+
+
+
+4. ​	a) rmdir: failed to remove 'dir1/dir11/': Directory not empty
+
+   ​	rm dir1/dir11/ -r
+
+   ​	b) /home$ rmdir –p eslam/Tools/projcts/Embedded-Linux/AdminLinux_Task1/Documents/OldFiles
+   rmdir: failed to remove '–p': No such file or directory
+   rmdir: failed to remove 'eslam/Tools/projcts/Embedded-Linux/AdminLinux_Task1/Documents/OldFiles': Not a directory
+
+​	c) cd Tools/projcts/Embedded-Linux/AdminLinux_Task1/docs
+
+
+
+5. ​	cp /etc/passwd   /home/eslam/ 
+
+   ​	mv passwd mypasswd
+
+6. mv mypasswd oldpasswd
+
+7. cd /home/    >>>>>    cd ../../home/    >>>>>>>  cd ~/..  >>>> cd  then cd ..
+
+8. ls /usr/bin/w*
+   /usr/bin/w           /usr/bin/wget               /usr/bin/who                   /usr/bin/write
+   /usr/bin/wall        /usr/bin/whatis             /usr/bin/whoami                /usr/bin/write.ul
+   /usr/bin/watch       /usr/bin/whereis            /usr/bin/whoopsie              /usr/bin/wsdl
+   /usr/bin/watchgnupg  /usr/bin/which              /usr/bin/whoopsie-preferences  /usr/bin/wsdl2
+   /usr/bin/wc          /usr/bin/which.debianutils  /usr/bin/word-list-compress
+   /usr/bin/wdctl       /usr/bin/whiptail           /usr/bin/wpa_passphrase
+
+
+
+
+
+9. ​	check If Internal or external command
+10. eslam@eslamnasr:/usr/bin$ type chsh
+    chsh is /usr/bin/chsh
+    eslam@eslamnasr:/usr/bin$ type chvt
+    chvt is /usr/bin/chvt
+
+
+
+11.CAT(1)                                       User Commands                                      CAT(1)
+
+NAME
+       cat - concatenate files and print on the standard output
+
+SYNOPSIS
+       cat [OPTION]... [FILE]...
+
+DESCRIPTION
+       Concatenate FILE(s) to standard output.
+
+
+
+MORE(1)                                      User Commands                                     MORE(1)
+
+NAME
+       more - file perusal filter for crt viewing
+
+SYNOPSIS
+       more [options] file ...
+
+DESCRIPTION
+       more is a filter for paging through text one screenful at a time. This version is especially
+       primitive. Users should realize that less(1) provides more(1) emulation plus extensive
+       enhancements.
+
+
+
+12. ​	The **`apropos`** command in Linux is used to **search the manual (man) page descriptions** for commands that match a given **keyword or topic**.
